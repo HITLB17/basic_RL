@@ -8,6 +8,7 @@ If you have any problem, please contact me. 17B904042@stu.hit.edu.cn
 from maze_env import Maze
 from SARSA import SarsaTable
 
+
 def update():
     for episode in range(100):
 
@@ -32,6 +33,7 @@ def update():
 
     print('game over')
     env.destory()
+
 
 if __name__ == "__main__":
     env = Maze()
